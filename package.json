@@ -1,0 +1,22 @@
+{
+  "name": "YSLAB_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server src/index.js dist/bundle.js",
+    "build:prod": "webpack src/index.js dist/bundle.js -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@webpack-cli/init": "^0.2.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "stylus": "^0.54.7"
+  }
+}
